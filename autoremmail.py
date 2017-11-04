@@ -15,8 +15,8 @@ def autoremindermail():
             server.ehlo()
             server.starttls()
             server.ehlo()
-            server.login("miarcmalkovarandi@gmail.com", "madarchod")
-            server.sendmail("miarcmalkovarandi@gmail.com",t, text)
+            server.login("your-mail@gmail.com", "pss")
+            server.sendmail("yourmail@gmail.com",t, text)
             server.close()
 
 autoremindermail()      
